@@ -39,7 +39,7 @@ function Products(props) {
                                         key={product.color + el}
                                         id={el}
                                         data-fancybox={product.id}
-                                        href={`http://localhost:3000${require(`../../assets/images/${product.color}/${el}.jpg`)}`}
+                                        href={`${process.env.REACT_APP_ASSETS_URL}${require(`../../assets/images/${product.color}/${el}.jpg`)}`}
                                         style={el !== product.color + '002' ? { display: 'none' } : null}
                                     >
                                         <img src={require(`../../assets/images/${product.color}/${el}.jpg`)} width="200" height="150" alt='image' />
