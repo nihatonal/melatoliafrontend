@@ -1,0 +1,30 @@
+.partners_container {
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content:flex-start;
+  background-image: url("../../assets/images/bg_partners.png");
+}
+.partners_wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.partners_list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.partners_list_item {
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+.partners_list_item:hover {
+  opacity: 1;
+}
+
