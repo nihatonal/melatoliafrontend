@@ -6,6 +6,8 @@ import line from '../../assets/images/line.png';
 import Fancybox from '../../shared/UI/Fancybox';
 import './Products.css'
 function Products(props) {
+    console.log(`${process.env.REACT_APP_ASSETS_URL}${require(`../../assets/images/${productsData[0].color}/${productsData[0].images[0]}.jpg`)}`)
+    console.log(process.env.REACT_APP_ASSETS)
 
     return (
         <div className='section_container p-15' id='products'>
@@ -39,6 +41,7 @@ function Products(props) {
                                         key={product.color + el}
                                         id={el}
                                         data-fancybox={product.id}
+                                        //${process.env.REACT_APP_ASSETS_URL}
                                         href={`${process.env.REACT_APP_ASSETS_URL}${require(`../../assets/images/${product.color}/${el}.jpg`)}`}
                                         style={el !== product.color + '002' ? { display: 'none' } : null}
                                     >
