@@ -74,7 +74,7 @@
   .hero_image {
     height: 550px;
     position: absolute;
-    background-image: url("../../assets/images/product_hero.png");
+    background-image: url("../../assets/images/product_hero_white.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100% 0;

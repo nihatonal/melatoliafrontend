@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.e78782ca.css",
+    "main.css": "/static/css/main.670b167e.css",
     "main.js": "/static/js/main.6d668708.js",
     "static/js/787.15fd2bd0.chunk.js": "/static/js/787.15fd2bd0.chunk.js",
     "static/media/acikgri006.jpg": "/static/media/acikgri006.32ab851f231c27a39e4c.jpg",
     "static/media/koyugri010.jpg": "/static/media/koyugri010.0919f6e7d7c4eb4855df.jpg",
     "static/media/acikgri005.jpg": "/static/media/acikgri005.00835b408e6f557ff375.jpg",
     "static/media/lacivert008.jpg": "/static/media/lacivert008.03a9d77391e5824e3055.jpg",
-    "static/media/product_hero.png": "/static/media/product_hero.07ac2af1b8241ac2ab38.png",
     "static/media/acikgri001.jpg": "/static/media/acikgri001.60bcc2a54bc15a847dbb.jpg",
     "static/media/acikgri009.jpg": "/static/media/acikgri009.e9ede711d37f1ae58132.jpg",
     "static/media/koyugri008.jpg": "/static/media/koyugri008.7633d0856993ee0382ba.jpg",
@@ -53,12 +52,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.e78782ca.css.map": "/static/css/main.e78782ca.css.map",
+    "main.670b167e.css.map": "/static/css/main.670b167e.css.map",
     "main.6d668708.js.map": "/static/js/main.6d668708.js.map",
     "787.15fd2bd0.chunk.js.map": "/static/js/787.15fd2bd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e78782ca.css",
+    "static/css/main.670b167e.css",
     "static/js/main.6d668708.js"
   ]
 }
