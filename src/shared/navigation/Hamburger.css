@@ -17,10 +17,10 @@
     display: block;
     margin-right: 45px;
   }
-  #nav-icon.open {
+  /* #nav-icon.open {
     width: 20px;
     height: 20px;
-  }
+  } */
   #nav-icon span {
     display: block;
     position: absolute;

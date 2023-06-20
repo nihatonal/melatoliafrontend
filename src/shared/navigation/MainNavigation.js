@@ -19,24 +19,27 @@ function MainNavigation(props) {
     };
     return (
         <div className={'header'}>
-            {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
-            {<SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
-                <NavLinks
-                    sidebar_nav_item_wrapper='sidedrawer-navlink_wrapper'
-                    className={'sidedrawer-navlinks'}
-                    onClick={props.onClick}
-                    closeDrawer={closeDrawerHandler}
-                />
-            </SideDrawer>}
+            <div className="section_wrapper">
 
-            <div className={'main_header'}>
-                <img src={logo} alt='logo' />
+                {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
+                {<SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
+                    <NavLinks
+                        sidebar_nav_item_wrapper='sidedrawer-navlink_wrapper'
+                        className={'sidedrawer-navlinks'}
+                        onClick={props.onClick}
+                        closeDrawer={closeDrawerHandler}
+                    />
+                </SideDrawer>}
 
-                <NavLinks />
-                <Hamburger
-                    show={drawerIsOpen}
-                    onClick={openDrawerHandler}
-                />
+                <div className={'main_header'}>
+                    <img src={logo} alt='logo' />
+
+                    <NavLinks />
+                    <Hamburger
+                        show={drawerIsOpen}
+                        onClick={openDrawerHandler}
+                    />
+                </div>
             </div>
         </div>
     );
