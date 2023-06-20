@@ -5,9 +5,9 @@ import contact_image from '../../assets/images/faq.png'
 import Accordion from '../../shared/UI/Accordion';
 import ContactForm from './ContactForm';
 import './Contact.css';
-function Contact(props) {
+function Contact() {
 
-    const [selectedItem, setSelectedItem] = useState()
+    const [selectedItem, setSelectedItem] = useState();
 
     const handleClick = id => {
         if (selectedItem === id) {
@@ -26,8 +26,27 @@ function Contact(props) {
                     <img className='section_line' src={line} alt='line' />
                 </div>
                 <img className='contact_image' src={contact_image} alt='contact_image' />
+                <div className="contact_accordion_wrapper">
+                    <Accordion
+                        title="Адрес"
+                    >
+                        <p>MELATEX LLC <br></br> 30 N Gould St Ste R Sheridan, WY 82801, US</p>
+                    </Accordion>
+                    <Accordion
+                        title="Телефон"
+                    >
+                        <p>+7 909 931 54 56</p>
+                    </Accordion>
+                    <Accordion
+                        title="Электронные Почты"
+                        id='contact_email'
+                    >
+                        <a href="mailto:sales@melatoliasoftlinen.com">sales@melatoliasoftlinen.com</a>
+                        <a href="mailto:info@melatoliasoftlinen.com">info@melatoliasoftlinen.com</a>
+                    </Accordion>
 
-                <ul className="contact_accordion_wrapper">
+                </div>
+                {/* <ul className="contact_accordion_wrapper">
                     <Accordion
                         title="Адрес"
                         id='contact_address'
@@ -54,7 +73,7 @@ function Contact(props) {
                         <a href="mailto:info@melatoliasoftlinen.com">info@melatoliasoftlinen.com</a>
 
                     </Accordion>
-                </ul>
+                </ul> */}
                 <ContactForm />
             </div>
         </section>

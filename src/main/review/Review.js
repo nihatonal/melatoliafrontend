@@ -61,7 +61,7 @@ function Review(props) {
             <div className="review_wrapper">
                 <div className="review_items_wrapper">
                     <SimpleSlider>
-                        {reviews.slice(0, 6).map((review) => <ReviewCard review={review} key={review.id}/>)}
+                        {reviews.slice(0, 5).map((review) => <ReviewCard review={review} key={review.id}/>)}
 
                     </SimpleSlider>
 

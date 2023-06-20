@@ -46,7 +46,7 @@ ul {
 .section_title {
   font-family: var(--secondary-font-family);
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.4rem;
   line-height: 38px;
   text-align: center;
   color: var(--secondary-color);
