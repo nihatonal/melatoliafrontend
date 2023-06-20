@@ -70,7 +70,7 @@ function ContactForm(props) {
                     id="fname_lname"
                     element="input"
                     type="text"
-                    placeholder="Firstname Lastname"
+                    placeholder="Имя Фамилия"
                     validators={[VALIDATOR_REQUIRE()]}
                     onInput={inputHandler}
                     required={'required'}
@@ -80,7 +80,7 @@ function ContactForm(props) {
                     id="email"
                     element="input"
                     type="email"
-                    placeholder="Email Address"
+                    placeholder="Электронная почта"
                     validators={[VALIDATOR_REQUIRE(), VALIDATOR_EMAIL()]}
                     onInput={inputHandler}
                     required={'required'}
@@ -89,7 +89,7 @@ function ContactForm(props) {
                     id="phone"
                     element="input"
                     type="text"
-                    placeholder="Phone"
+                    placeholder="Телефон"
                     validators={[VALIDATOR_REQUIRE()]}
                     onInput={inputHandler}
                 />
@@ -97,7 +97,7 @@ function ContactForm(props) {
                     id="subject"
                     element="input"
                     type="text"
-                    placeholder="Subject"
+                    placeholder="Предмет"
                     validators={[VALIDATOR_REQUIRE()]}
                     onInput={inputHandler}
                     required={'required'}
@@ -107,7 +107,7 @@ function ContactForm(props) {
                     element="textarea"
                     type="text"
                     rows='10'
-                    placeholder="Message"
+                    placeholder="Сообщение"
                     validators={[VALIDATOR_REQUIRE()]}
                     onInput={inputHandler}
                     required={'required'}
@@ -117,7 +117,7 @@ function ContactForm(props) {
                 <button type="submit"
                     // disabled={!formState.isValid} 
                     className="contact_submit_button">
-                    {isLoading ? <LoadingSpinner /> : 'Submit'}
+                    {isLoading ? <LoadingSpinner /> : 'Отправить'}
 
                 </button>
             </form>

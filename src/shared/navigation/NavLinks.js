@@ -25,7 +25,7 @@ function NavLinks(props) {
                     to=""
                     onClick={() => scrollSmoothTo('home')}
                 >
-                    Home
+                    Главная
                 </NavLink>
 
             </div>
@@ -37,7 +37,7 @@ function NavLinks(props) {
                     to=""
                     onClick={() => scrollSmoothTo('aboutus')}
                 >
-                    About Us
+                    О Нас
                 </NavLink>
 
             </div>
@@ -50,7 +50,7 @@ function NavLinks(props) {
                     to=""
                     onClick={() => scrollSmoothTo('features')}
                 >
-                    Features
+                    Особенности
                 </NavLink>
             </div>
             <div className={props.sidebar_nav_item_wrapper} onClick={props.closeDrawer}>
@@ -61,7 +61,7 @@ function NavLinks(props) {
                     to=""
                     onClick={() => scrollSmoothTo('products')}
                 >
-                    Products
+                    Товары
                 </NavLink>
             </div>
             <div className={props.sidebar_nav_item_wrapper} onClick={props.closeDrawer}>
@@ -72,7 +72,7 @@ function NavLinks(props) {
                     to=""
                     onClick={() => scrollSmoothTo('contact')}
                 >
-                    Contact
+                    Контакты
                 </NavLink>
             </div>
 

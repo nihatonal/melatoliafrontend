@@ -16,7 +16,7 @@ function Main(props) {
             <Hero />
             <AboutUs />
             <Features />
-            <Why />
+            {/* <Why /> */}
             <Products />
             <Review />
             <Contact />

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b03d2c1.css",
-    "main.js": "/static/js/main.e2f82e0d.js",
+    "main.css": "/static/css/main.ff92383e.css",
+    "main.js": "/static/js/main.a18d1077.js",
     "static/js/787.15fd2bd0.chunk.js": "/static/js/787.15fd2bd0.chunk.js",
     "static/media/acikgri006.jpg": "/static/media/acikgri006.32ab851f231c27a39e4c.jpg",
     "static/media/koyugri010.jpg": "/static/media/koyugri010.0919f6e7d7c4eb4855df.jpg",
@@ -39,6 +39,7 @@
     "static/media/beyaz009.jpg": "/static/media/beyaz009.d7c1b45fd593baa2356f.jpg",
     "static/media/beyaz004.jpg": "/static/media/beyaz004.43496ed970a2e3271fda.jpg",
     "static/media/beyaz005.jpg": "/static/media/beyaz005.30b5ab8f659633b85813.jpg",
+    "static/media/product_hero_white.png": "/static/media/product_hero_white.f4f966bafe00b7f6cab2.png",
     "static/media/beyaz002.jpg": "/static/media/beyaz002.c9073e82d2fbae484735.jpg",
     "static/media/beyaz010.jpg": "/static/media/beyaz010.656be8bbe826f24bb881.jpg",
     "static/media/beyaz003.jpg": "/static/media/beyaz003.3b4228d15fe110e234b6.jpg",
@@ -52,12 +53,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.0b03d2c1.css.map": "/static/css/main.0b03d2c1.css.map",
-    "main.e2f82e0d.js.map": "/static/js/main.e2f82e0d.js.map",
+    "main.ff92383e.css.map": "/static/css/main.ff92383e.css.map",
+    "main.a18d1077.js.map": "/static/js/main.a18d1077.js.map",
     "787.15fd2bd0.chunk.js.map": "/static/js/787.15fd2bd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b03d2c1.css",
-    "static/js/main.e2f82e0d.js"
+    "static/css/main.ff92383e.css",
+    "static/js/main.a18d1077.js"
   ]
 }

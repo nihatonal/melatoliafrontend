@@ -50,10 +50,10 @@
   width: 100%;
   height: 250px;
   position: absolute;
-  background-image: url("../../assets/images/product_hero.png");
+  background-image: url("../../assets/images/product_hero_white.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 90% 0;
+  background-position: 95% 0;
 }
 
 @media only screen and (min-width: 767px) {

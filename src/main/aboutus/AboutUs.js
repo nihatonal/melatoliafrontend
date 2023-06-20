@@ -3,19 +3,25 @@ import React from 'react';
 import line from '../../assets/images/line.png';
 
 import './AboutUs.css'
-function AboutUs(props) {
+function AboutUs() {
     return (
         <section className="aboutus_container p-15" id='aboutus'>
             <div className="section_wrapper">
                 <h3 className="section_title">
-                    Wrap Yourself in Comfort and Style with Our Plush Terry Towels
+                    Окутайте себя комфортом и стилем с нашими плюшевыми махровыми полотенцами
                 </h3>
                 <img className='section_line' src={line} alt='line' />
                 <div className="aboutus_content">
                     {/* <img src={towel} alt='towel' /> */}
                     <div className="aboutus_image"></div>
                     <p className="section_desc">
-                        The towels are designed to be highly absorbent, meaning they quickly and efficiently dry off your skin after a shower or bath. The cotton fibers are designed to wick away moisture, ensuring that you're left feeling dry and comfortable after use. The ring spun premium cotton used in these towels allows for maximum softness and fluffiness. It creates an incredibly plush texture that feels gentle and cozy against your skin.
+                        Полотенца обладают высокой впитывающей способностью, что означает, что они быстро и
+                        эффективно высушите кожу после душа или ванны.
+                        Хлопковые волокна предназначены для отвода влаги.
+                        гарантируя, что после использования вы будете чувствовать себя сухо и комфортно.
+                        Высококачественный хлопок кольцевого прядения, используемый в этих полотенцах, позволяет
+                        максимальная мягкость и пушистость. Это создает невероятно плюшевый
+                        Текстура, которая ощущается нежной и уютной на вашей коже.
                     </p>
                 </div>
             </div>

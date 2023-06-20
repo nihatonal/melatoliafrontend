@@ -15,26 +15,13 @@ function Contact(props) {
         }
         setSelectedItem(id)
     }
-    // const [windowSize, setWindowSize] = useState(window.innerWidth);
-
-    // useEffect(() => {
-    //     const handleWindowResize = () => {
-    //         setWindowSize(window.innerWidth);
-    //     };
-
-    //     window.addEventListener('resize', handleWindowResize);
-
-    //     return () => {
-    //         window.removeEventListener('resize', handleWindowResize);
-    //     };
-    // }, []);
 
     return (
         <section className="contact_container p-30" id='contact'>
             <div className="section_wrapper contact_wrapper">
                 <div className="section_header">
                     <h3 className="section_title">
-                        Contact
+                        Контакты
                     </h3>
                     <img className='section_line' src={line} alt='line' />
                 </div>
@@ -42,7 +29,7 @@ function Contact(props) {
 
                 <ul className="contact_accordion_wrapper">
                     <Accordion
-                        title="Address"
+                        title="Адрес"
                         id='contact_address'
                         handleToggle={(e) => handleClick(e.target.parentNode.id)}
                         active={'contact_address' === selectedItem}
@@ -50,7 +37,7 @@ function Contact(props) {
                         <p>MELATEX LLC <br></br> 30 N Gould St Ste R Sheridan, WY 82801, US</p>
                     </Accordion>
                     <Accordion
-                        title="Phone"
+                        title="Телефон"
                         id='contact_phone'
                         handleToggle={(e) => handleClick(e.target.parentNode.id)}
                         active={'contact_phone' === selectedItem}
@@ -58,7 +45,7 @@ function Contact(props) {
                         <p>+7 909 931 54 56</p>
                     </Accordion>
                     <Accordion
-                        title="E-Mail Address"
+                        title="Электронные Почты"
                         id='contact_email'
                         handleToggle={(e) => handleClick(e.target.parentNode.id)}
                         active={'contact_email' === selectedItem}

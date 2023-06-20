@@ -12,26 +12,26 @@ function Features(props) {
     const data = [
         {
             id: "feature_1",
-            title: "Productivity",
-            text: 'Most important feature of these Turkish bath towels is that they do not contain any chemical or synthetic materials and they are all made from natural substances. You can use it safely for yourself and your loved ones.',
+            title: "Производительность",
+            text: 'Самая важная особенность этих турецких банных полотенец заключается в том, что они не содержат никаких химических или синтетических материалов, и все они сделаны из натуральных веществ. Вы можете безопасно использовать его для себя и своих близких.',
             icon: 'HiOutlineLifebuoy',
         },
         {
             id: "feature_2",
-            title: "Softness",
-            text: 'It is one of the essential details for a towel. 600 GSM 100% Turkish Cotton used in our towels makes them softer than other normal towels. Feel the softness of these towels while drying your hands, face or body.',
+            title: "Мягкость",
+            text: 'Это одна из основных деталей полотенца. 600 GSM 100% турецкий хлопок, используемый в наших полотенцах, делает их мягче, чем другие обычные полотенца. Почувствуйте мягкость этих полотенец, вытирая руки, лицо или тело.',
             icon: 'LuFileHeart',
         },
         {
             id: "feature_3",
-            title: "Water absorption",
-            text: 'If the absorbency of a towel is not enough, it will not work at all. Therefore, luxury bath towels should always have high absorbency.',
+            title: "Водопоглощение",
+            text: 'Если впитывающей способности полотенца недостаточно, оно вообще не сработает. Поэтому роскошные банные полотенца всегда должны иметь высокую впитывающую способность.',
             icon: 'LuGlassWater',
         },
         {
             id: "feature_4",
-            title: "Durability",
-            text: 'Turkish towels produced as double stitches are much durable than other towels. These products can be used for many years without wearing out.',
+            title: "Долговечность",
+            text: 'Турецкие полотенца, изготовленные двойным стежком, намного прочнее других полотенец. Эти продукты могут использоваться в течение многих лет без износа.',
             icon: 'WiStrongWind',
         },
     ]
@@ -41,7 +41,7 @@ function Features(props) {
                 Melatolia - Soft Linen
             </h3>
             <img className='section_line' src={line} alt='line' />
-            <p className="section_desc">We have considered 4 different criteria in order to offer maximum quality Turkish towels for people looking for towels.</p>
+            <p className="section_desc">Мы рассмотрели 4 различных критерия, чтобы предложить турецкие полотенца максимального качества для людей, которые ищут полотенца.</p>
             <div className="features_items_wrapper">
                 {data.map((item) =>
                     <div className="features_item" key={item.id}>

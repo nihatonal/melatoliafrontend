@@ -1,7 +1,7 @@
 export const productsData = [
     {
         id: 'product_1',
-        title: 'Bright White',
+        title: 'Ярко-белый',
         color: 'beyaz',
         images: [
             'beyaz002',
@@ -19,7 +19,7 @@ export const productsData = [
     {
         id: 'product_2',
         color: 'acikgri',
-        title: 'Rockridge Gray',
+        title: 'Рокридж Грей',
         images: [
             'acikgri001',
             'acikgri002',
@@ -36,7 +36,7 @@ export const productsData = [
     {
         id: 'product_3',
         color: 'koyugri',
-        title: 'Dark Gray',
+        title: 'Темно-серый',
         images: [
             'koyugri001',
             'koyugri002',
@@ -53,7 +53,7 @@ export const productsData = [
     {
         id: 'product_4',
         color: 'lacivert',
-        title: 'Navy Blue',
+        title: 'Темно-синий',
         images: [
             'lacivert001',
             'lacivert002',
