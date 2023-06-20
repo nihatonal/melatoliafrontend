@@ -30,4 +30,7 @@
   .aboutus_content .section_desc {
     align-self: center;
   }
+  .aboutus_container .section_wrapper .section_title {
+    line-height: 56px;
+  }
 }
