@@ -16,8 +16,8 @@
 .hero_title {
   font-family: var(--primary-font-family);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 54px;
+  font-size: 34px;
+  line-height: 44px;
   width: 250px;
   text-align: left;
 }
@@ -27,7 +27,7 @@
   font-size: 16px;
   line-height: 28px;
   text-align: left;
-  margin: 20px 0;
+  margin: 40px 0 10px;
 }
 .hero_list {
   font-family: var(--secondary-font-family);
@@ -40,9 +40,9 @@
   padding: 6px 0;
 }
 .hero_list_item svg {
-  fill: var(--yellow-bg-color);
+  fill: var(--dark-blue-color);
   margin-right: 6px;
-  font-size: 18px;
+  font-size: 20px;
 }
 .hero_image {
   width: 100%;

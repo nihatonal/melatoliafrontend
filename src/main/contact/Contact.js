@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import line from '../../assets/images/line.png';
 import contact_image from '../../assets/images/faq.png'
@@ -6,15 +6,6 @@ import Accordion from '../../shared/UI/Accordion';
 import ContactForm from './ContactForm';
 import './Contact.css';
 function Contact() {
-
-    const [selectedItem, setSelectedItem] = useState();
-
-    const handleClick = id => {
-        if (selectedItem === id) {
-            return setSelectedItem();
-        }
-        setSelectedItem(id)
-    }
 
     return (
         <section className="contact_container p-30" id='contact'>

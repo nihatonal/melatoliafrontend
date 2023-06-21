@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { productsData } from '../../assets/productsData';
 import line from '../../assets/images/line.png';
@@ -44,7 +44,7 @@ function Products(props) {
                                         href={`${process.env.REACT_APP_ASSETS_URL}${require(`../../assets/images/${product.color}/${el}.jpg`)}`}
                                         style={el !== product.color + '002' ? { display: 'none' } : null}
                                     >
-                                        <img src={require(`../../assets/images/${product.color}/${el}.jpg`)} width="200" height="150" alt='image' />
+                                        <img src={require(`../../assets/images/${product.color}/${el}.jpg`)} width="200" height="150" alt={el} />
                                     </a>)}
 
                             </Fancybox>

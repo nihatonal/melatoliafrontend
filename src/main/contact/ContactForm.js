@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Input from '../../shared/components/formElements/Input'
 import { useHttpClient } from "../../shared/hooks/http-hook";
 import {
@@ -11,7 +11,7 @@ import LoadingSpinner from '../../shared/UI/LoadingSpinner'
 import './ContactForm.css'
 function ContactForm(props) {
     const { isLoading, error, sendRequest } = useHttpClient();
-    const [formState, inputHandler, setFormData] = useForm(
+    const [formState, inputHandler] = useForm(
         {
             fname_lname: {
                 value: "",
@@ -56,7 +56,7 @@ function ContactForm(props) {
                 }
 
             );
-           // console.log(responseData)
+            // console.log(responseData)
         } catch (err) {
         }
 

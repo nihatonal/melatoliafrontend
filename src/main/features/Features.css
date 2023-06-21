@@ -14,6 +14,7 @@
   display: grid;
   grid-template-columns: auto auto;
   gap: 15px;
+  padding: 0 15px;
 }
 
 .features_item_icon_wrapper {
@@ -35,7 +36,7 @@
 .features_item-title {
   font-family: var(--primary-font-family);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   color: var(--secondary-color);
   text-align: left;
@@ -49,7 +50,6 @@
   text-align: left;
   color: var(--input-color);
   text-align: justify;
-  padding-right: 10px;
 }
 
 @media only screen and (min-width: 767px) {
