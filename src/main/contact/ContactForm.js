@@ -42,7 +42,7 @@ function ContactForm(props) {
         event.preventDefault();
         try {
             const responseData = await sendRequest(
-                `${process.env.REACT_APP_BACKEND_URL}users/sendmail`,
+                `${process.env.REACT_APP_BACKEND_URL}/users/sendmail`,
                 "POST",
                 JSON.stringify({
                     fname_lname: formState.inputs.fname_lname.value,
